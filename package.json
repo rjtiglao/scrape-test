@@ -1,0 +1,30 @@
+{
+  "name": "scraper-temp",
+  "version": "1.0.0",
+  "description": "Article-Scraper uses cheerio, MongoDB, mongoose, express, axios, and express handlebars to scrape a ubu.com to articles and allows people to comment on them.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjtiglao/scrape-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjtiglao/scrape-test/issues"
+  },
+  "homepage": "https://github.com/rjtiglao/scrape-test#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.0",
+    "morgan": "^1.9.1"
+  }
+}
