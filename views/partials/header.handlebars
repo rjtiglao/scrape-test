@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">UbuWeb Mongo Scraper</a>
+  <a class="navbar-brand" href="/">Just Scraping By...</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,11 +17,11 @@
       </li>
       {{#if home}}
       <li class="nav-item">
-        <a class="btn btn-secondary scrape-new">Scrape New Articles</a>
+        <a class="btn btn-secondary scrape-new">New Scrape</a>
       </li>
       {{/if}}
       <li class="nav-item">
-        <a class="btn btn-secondary clear">Clear all Articles!</a>
+        <a class="btn btn-secondary clear">Clear Saved Items</a>
       </li>
     </ul>
   </div>
@@ -31,13 +31,11 @@
   <div class="overlay"></div>
   <div class="background-image"></div>
   <div class="caption">{{#if home}}
-    <h1>Mongo Scraper</h1>
-    <p>UbuWeb Edition</p>
+    <h1>Scrape this,Scrape that</h1>
+
     {{else}}
     <h1>Saved Articles</h1>
     <p>Your saved articles</p>
     {{/if}}
   </div>
 </div>
-
-
